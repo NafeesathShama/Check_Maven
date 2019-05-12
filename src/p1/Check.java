@@ -19,5 +19,7 @@ public class Check
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 		int count = links.size();
 		System.out.println(count);
+		
+		driver.get("www.amazon.com/");
 	}
 }
